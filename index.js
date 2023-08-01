@@ -29,12 +29,13 @@ form.addEventListener("submit", function(e) {
 
 
 	modalText.innerHTML = `
-	<div class="modal-inner-loading">
-	    <img src="loading.svg" class="loading">
-	    <p id="uploadText">
-	        Uploading your data to the dark web...
-	    </p>
-	</div>`
+		<div class="modal-inner-loading">
+		    <img src="loading.svg" class="loading">
+		    <p id="uploadText">
+		        Uploading your data to the dark web...
+		    </p>
+		</div>
+	`
 
 
 	setTimeout(function(){
